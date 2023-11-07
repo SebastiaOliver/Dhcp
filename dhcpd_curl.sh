@@ -19,7 +19,7 @@ headerToken=""
 OWNER="SebastiaOliver"
 REPO="DHCP"
 PATHFILE="main/etc/dhcp/dhcpd.conf"
-f_dchpd_conf="https://raw.githubusercontent.com/SebastiaOliver/Dhcp/main/etc/dhcp/dhcpd.conf"
+f_dchpd_conf="https://raw.githubusercontent.com/$OWNER/$REPO/$PATHFILE"
 
 # Print f_dchpd_conf on screen
 echo $f_dchpd_conf
