@@ -35,7 +35,7 @@ echo "Get configuration file"
 curl $headerToken -O -L $f_dchpd_conf
 
 # Copy configuration file to etc directory
-cp /home/dhcpd.conf /etc/dhcp/
+cp dhcpd.conf /etc/dhcp
 
 # Restart dhcp service
 echo "Restart dhcp service"
